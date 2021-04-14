@@ -125,8 +125,10 @@ print(globalBestPosition, globalBestCost)
 # RESULTS
 figure = plt.figure(figsize=(10, 6))
 plt.plot(bestCosts)
+plt.hlines(globalBestCost,0,maxIter,label=f'minimum : {globalBestCost} at {globalBestPosition}',colors='red',linestyles='dotted')
 plt.xlabel('Iterations')
 plt.ylabel('Best Minimum')
 plt.grid('on')
+plt.legend()
 plt.show()
 
