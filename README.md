@@ -21,7 +21,7 @@ Implement the Particle Swarm Optimisation algorithm to find the minimum of the f
 f(x,y) = (1.5 – x -xy)^2 + (2.25 – x + xy^2)^2 + (2.625 – x + xy^3)^2 for x,y in range <-4.5, 4.5>
 
 see the optimal solution found, plot in plots folder.
-![pso](./plots/PSO_plot.png)
+![pso](./plots/PSO_plot2.png)
 
 
 ### Disclaimer
