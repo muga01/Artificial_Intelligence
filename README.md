@@ -23,6 +23,3 @@ f(x,y) = (1.5 – x -xy)^2 + (2.25 – x + xy^2)^2 + (2.625 – x + xy^3)^2 for 
 see the optimal solution found, plot in plots folder.
 ![pso](./plots/PSO_plot2.png)
 
-
-### Disclaimer
-You may want to clone the project or download the individual files locally whatever suits you. Incase of datasets, in here I don't upload them, they should be easily downloadable from the internet as they are standard datasets.
