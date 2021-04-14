@@ -1,5 +1,5 @@
 # Artificial_Intelligence
-This repo presents different tasks related to AI. These tasks include searching algorithms (BFS,DFS and Ant Colony Optimization) to solve the Travelling Salesman Problem, A Particle Swarm Optimization algorithm to minimize the selected function. In addition, I present neural network and convolutional neural networks for image classification problems, designing the autoencoder using CNN, finding patterns in strings and many more.
+This repo presents different tasks related to AI. These tasks include searching algorithms (BFS,DFS and Ant Colony Optimization) to solve the Travelling Salesman Problem, A Particle Swarm Optimization algorithm to minimize the selected function.
 
 ## BFS,DFS,ACO
 See the files BFS,DFS and ACO for the codes to solve the problem based on the instructions below:-
@@ -14,6 +14,13 @@ See the files BFS,DFS and ACO for the codes to solve the problem based on the in
 
 3. Represent the created map as a weighted (directed) graph, where cities are the nodes and roads are the edges of the graph. 
 In the created scene, solve the traveling salesman problem: The salesman starts from a chosen city and has to visit every city exactly once before returning to the starting city. The goal is to find a path with the lowest cost. 
+
+## The Particle Swarm Optimization (PSO)
+Implement the Particle Swarm Optimisation algorithm to find the minimum of the following function:
+
+f(x,y) = (1.5 – x -xy)^2 + (2.25 – x + xy^2)^2 + (2.625 – x + xy^3)^2 for x,y in range <-4.5, 4.5>
+
+Test your algorithm using different parameters and analyse the results. 
 
 
 ### Disclaimer
