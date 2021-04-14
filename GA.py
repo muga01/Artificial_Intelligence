@@ -272,7 +272,7 @@ def scramble_mutate(x, mu):
     return y
 
 
-### RUN THE PROBLEM
+### Import data, job resources and time
 
 order = pd.read_csv('.\data\GA_task.csv')
 ''' [[{Resource:Time}]], index of the internal(dic) list gives an operation number, the index of external list
