@@ -1,5 +1,5 @@
 # Artificial_Intelligence
-This repo presents different tasks related to AI. These tasks include searching algorithms (BFS,DFS and Ant Colony Optimization) to solve the Travelling Salesman Problem, A Particle Swarm Optimization algorithm to minimize the selected function.
+This repo presents different tasks related to AI. These tasks include searching algorithms (BFS,DFS and Ant Colony Optimization) to solve the Travelling Salesman Problem, A Particle Swarm Optimization algorithm to minimize the selected function. In addition, the job scheduling problem is solved using Genetic Algorithm (GA).
 
 ## BFS,DFS,ACO
 See the files BFS,DFS and ACO for the codes to solve the problem based on the instructions below:-
@@ -22,4 +22,8 @@ f(x,y) = (1.5 – x -xy)^2 + (2.25 – x + xy^2)^2 + (2.625 – x + xy^3)^2 for 
 
 see the optimal solution found, plot in plots folder.
 ![pso](./plots/PSO_plot2.png)
+
+## Genetic algorithm
+Here the job scheduling problem is solved using Genetic algorithm, one of the evolutionary algorithm which mimics human evolution.Genetic algorithm is implemented to schedule jobs using available resources, so that the time to finish all tasks is minimal. The algorithm can be tuned with different parameters to obtain desirable results. The data is in a separate excel file in the data folder – each task has the resource (R) and time needed using this resource (T) in a specific order. You cannot change the order of operations within the task. Below, is a resultant plot after optimization, this is not final as more optimizations can be performed to yield the more robust schedule.
+![GA](./plots/ga_plot.png)
 
